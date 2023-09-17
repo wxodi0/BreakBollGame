@@ -6,7 +6,7 @@ let y = canvas.height - 40;
 let Px = 2, Py = -2;
 
 let padHeight = 10;
-let padwidth = 70;
+let padwidth = 80;
 
 let block = [];
 
@@ -129,8 +129,8 @@ function init() {
   }
 
   // move
-  x += Px;
-  y += Py;
+  x += Px + 0.1;
+  y += Py + 0.03;
 }
 
-setInterval(init, 10);
+setInterval(init, 5);
