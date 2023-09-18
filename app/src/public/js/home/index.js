@@ -90,7 +90,7 @@ function hitBlock() {
           b.status = 0;
           score++;
           if (score === row * col) {
-            alert('You Win');
+            alert('뽀록이잖아요.');
             document.location.reload();
           }
         }
@@ -118,7 +118,7 @@ function init() {
     if (x > padX && x < padX + padwidth) {
       Py = -Py;
     } else {
-      alert("Game Over!");
+      alert("이걸 죽네 ㅋ");
       document.location.reload();
     }
   }
